@@ -15,5 +15,6 @@ macro_rules! transform {
 
 fn main() {
     let x = capture!(2 + 3);
-    println!("{}", x); // what this will print?
+    let y = transform!(2 + 3);
+    println!("{x}, {y}"); // what this will print?
 }
